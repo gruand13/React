@@ -8,7 +8,7 @@ const text = "hello world";
 
 const elem = (
   <div>
-    <h2 >Text : {text}</h2>;
+    <h2 className='text'>Text : {text}</h2>;
     <input type='text'/>
     <button tabIndex='0'>click</button>
   </div>
